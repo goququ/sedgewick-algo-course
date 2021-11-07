@@ -1,7 +1,7 @@
 import { DynamicUnion } from "./types";
 
 export class QuickFind implements DynamicUnion {
-  private items: number[] = [];
+  protected items: number[] = [];
 
   constructor(n: number) {
     this.items = Array.from({ length: n }, (_, index) => index);

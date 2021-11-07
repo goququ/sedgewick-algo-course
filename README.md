@@ -1,6 +1,6 @@
 # sedgewick-algo-course
 
-Learning notes and data structure implementations of Sedgewick's algorithms course
+Learning notes and data structure implementations of Sedgewick's [algorithms course](https://www.coursera.org/learn/algorithms-part1)
 
 ---
 
