@@ -4,7 +4,8 @@
   "description": "Learning notes and data structure implementations of Sedgewick's algorithms course",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:dev": "jest --watch"
   },
   "repository": {
     "type": "git",
