@@ -6,7 +6,7 @@ export class QuickUnion extends QuickFind implements DynamicUnion {
     super(n);
   }
 
-  private root(a: number) {
+  protected root(a: number) {
     let item = a;
     while (item !== this.items[item]) {
       item = this.items[item];
